@@ -70,7 +70,7 @@ def is_gameover(val, arr):
     for i in range(N):
         if arr[i] == wincode or mirror_arr[i] == wincode or d1 == wincode or d2 == wincode:
             flag = True
-            print(f'Game Over! {val} win!')
+            print(f'Game Over! \n {val} win!')
             break
 
     return flag
